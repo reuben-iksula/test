@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import "./App.css";
+import Greet from "./components/Greet";
+import ParentComponent from "./components/ParentComponent";
+import ControlledForm from "./components/ControlledForm";
+import Ref from "./components/Ref";
+import ClassTimer from "./components/ClassTimer";
+import FunctionalTimer from "./components/FunctionalTimer";
+import ClassCounter from "./components/ClassCounter";
+import CrudFunctional from "./components/CrudFunctional";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ParentComponent/> */}
+      {/* <ControlledForm/> */}
+      {/* <Ref/> */}
+      {/* <RefParent/> */}
+      {/* <ClassTimer/> */}
+      {/* <FunctionalTimer/> */}
+      {/* <ClassCounter/> */}
+      <CrudFunctional />
     </div>
   );
 }
